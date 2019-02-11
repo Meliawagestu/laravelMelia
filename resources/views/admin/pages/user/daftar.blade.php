@@ -36,9 +36,8 @@
 		<td>{{ $dt->name }}</td>
 		<td>{{ $dt->email }}</td>
 		<td>{{ $dt->akses }}</td>
-		<t
 		<td>
-			<a href="#" class="btn btn-succes btn-sm">
+			<a href="#" class="btn btn-success btn-sm">
 			<i class="fa fa-w fa-edit"></i>
 			</a>
 			@if( $dt->id != Auth::id() )
