@@ -17,7 +17,7 @@
 					<div class="form-group form-label-group">
 						<input type="text" name="name"
 						class="form-control"
-						value="{{ old('name') }}"
+						value="{{ old('name') }}" 
 						id="iName" placeholder="Name" required>
 						<label for="iName">Name</label>
 					</div><!-- End Form Group-->
@@ -48,7 +48,7 @@
 
 					<div class="form-group form-label-group">
 						<select class="form-control"
-						name="akses">
+						name="akses"> 
 							<option value="">Pilih Akses Sebagai :</option>
 							<option value="operator">Operator</option>
 							<option value="admin">Administrator</option>

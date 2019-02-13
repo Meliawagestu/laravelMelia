@@ -7,7 +7,7 @@
 	<div class="col-md-6 mb-3">
 		<a href="{{ route('admin.user.add') }}" class="btn btn-primary">[+] Tambah</a>
 	</div>
-
+ 
 	<div class="col-md-6 mb-3">
 		<form method="GET" action="{{ route('admin.user') }}">
 			<div class="input-group">
@@ -18,7 +18,7 @@
 					<button type="submit"
 					class="btn btn-primary">
 						Cari !
-					</button>
+					</button> 
 				</div>
 			</div>
 		</form>
