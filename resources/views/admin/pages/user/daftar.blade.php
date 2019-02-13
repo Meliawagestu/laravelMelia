@@ -2,7 +2,7 @@
 @section('title','User')
 @section('content')
 <h1>User</h1>
-<hr>
+<hr> 
 <div class="row">
 	<div class="col-md-6 mb-3">
 		<a href="{{ route('admin.user.add') }}" class="btn btn-primary">[+] Tambah</a>

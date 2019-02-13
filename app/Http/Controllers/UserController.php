@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
-use Auth;
+use Auth; 
 
 class UserController extends Controller
 {
@@ -13,7 +13,7 @@ class UserController extends Controller
    	$data = User::where('name','like',"%{$req->keyword}%")->paginate(10); 
    	return view('admin.pages.user.daftar',['data'=>$data]);
    }
-   
+
    public function add()
    {
    	return view('admin.pages.user.add');
