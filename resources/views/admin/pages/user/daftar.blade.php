@@ -1,4 +1,4 @@
-@extends('admin.main')
+@extends('admin.main') 
 @section('title','User')
 @section('content')
 <h1>User</h1>

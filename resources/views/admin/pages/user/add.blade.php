@@ -11,7 +11,7 @@
 			<div class="card">
 				<div class="card-header">
 					<h5>Buat User Baru</h5>
-				</div><!-- End Card Header--> 	
+				</div><!-- End Card Header-->  	
 
 				<div class="card-body">
 					<div class="form-group form-label-group">
