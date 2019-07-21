@@ -60,6 +60,8 @@ Route::group(['prefix'=>'admin','middleware'=>['auth']], function(){
 		Route::get('/','ProdukController@daftar')->name('admin.produk');
 		Route::get('/add','ProdukController@add')->name('admin.produk.add');
 		Route::post('/add','ProdukController@save');
+		Route::get('/edit/{id}','ProdukController@edit')->name('admin.produk.edit');
+		Route::post('/edit/{id}','ProdukController@update');
 	});
 
 });

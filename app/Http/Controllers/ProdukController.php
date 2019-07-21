@@ -58,5 +58,16 @@ class ProdukController extends Controller
         }
       
     }
+
+    public function edit($id)
+    {
+        $data = Produk::find($id);
+        return view('admin.pages.produk.edit',['rc'=>$data]);
+    }
+
+    public function update(Request $req)
+    {
+        return 'Fungsi Update';
+    }
 }
   
